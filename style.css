@@ -1,0 +1,121 @@
+@font-face {
+    font-family: maaja;
+    src: url(maaja_ver_1.00.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: maaja;
+    background-color: rgb(111, 212, 243, 0.815);
+}
+
+.toilet-display{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+
+.toilet-slot{
+    border: black solid 2.5px;
+    margin-top: 20px;
+    /* background-color: rgb(134, 213, 247, 0.815); */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 250px;
+    
+}
+.toilet-content-left{
+    width: 150px;
+    font-size: 45px;
+    margin-top: auto;
+    margin-left: 50px;
+    border: 2px;
+    text-decoration: underline;
+}
+
+.toilet-content-right{
+    width: 550px;
+    height: 150px;
+    margin-left: 200px;
+    border: black solid 2px;
+    border-radius: 20px;
+    background-color: rgb(174,230,255);
+}
+
+.toilet-icon{
+    border: black solid 3px;
+    margin-bottom: auto;
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+
+#icon1,#icon2,#icon3{
+    text-align: center;
+    font-size: 8em;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 70%;
+}
+.toilet-start-using{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.toilet-duration{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.est-waiting-time{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.toilet-list{
+    margin-top: 4rem;
+    width: 800px;
+    height: 930px;
+    justify-content: center;
+    margin: auto;
+}
+
+#toilet-header{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+/* #refresh-icon{
+    border: black solid 3px;
+    border-radius: 10px;
+    font-size: 10em;
+    background-color: rgb(111, 212, 243, 0.815);
+    cursor: pointer;
+}   
+
+.refresh-button{
+    float: right;
+    margin-top: auto;
+    right: 0;
+    margin-right: 5rem;
+    /* background-color: rgb(111, 212, 243, 0.815); */
+    /* outline: none;
+    border: none;
+} */ 
+
+
+
